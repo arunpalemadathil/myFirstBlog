@@ -1,0 +1,31 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="{% static 'css/music.css' %}">
+</head>
+<body>
+    <div class="page-header">
+        <h1>Test Interface</h1>
+    </div>
+    <h2> Hello World!!! Today is {{today}}</h2>
+    <h2>We are
+        {% if today.day == 1 %}
+        the first day of the month.
+        {% elif today == 20 %}
+        the 20th day of the month.
+        {% else %}
+        I don't know
+        {% endif %}
+    </h2>
+    <p>
+        {% for day in days_of_week %}
+        {{day}}
+            </p>
+        {% endfor %}
+
+
+
+</body>
+</html>

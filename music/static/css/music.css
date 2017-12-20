@@ -1,0 +1,17 @@
+
+.page-header {
+    background-color: #006400;
+    margin-top: 0;
+    padding: 10px 10px 5px 40px;
+}
+
+.page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
+    color:#F0FFFF;
+    font-size: 28pt;
+    text-decoration: none;
+}
+
+.system-status {
+    background-color: #2080df;
+    padding: 20px 20px 25px 80px;
+}
